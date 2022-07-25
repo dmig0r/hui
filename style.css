@@ -873,3 +873,12 @@ login_icon_name{
     color: #000000;
     margin-top: 48px;
 }
+
+.button_form:hover{
+    background-color: #dfdfdf;
+}
+
+.button_form:active{
+    background-color: #d5d5d5;
+    color: #959595;
+}
