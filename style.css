@@ -867,3 +867,9 @@ login_icon_name{
 .osob input[type="checkbox"]:checked + .checkbox_osob{
     background-image: url(assets/images/checkbox-on.svg);
 }
+
+.button_form{
+    width: 260px;
+    color: #000000;
+    margin-top: 48px;
+}
