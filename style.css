@@ -837,8 +837,33 @@ login_icon_name{
     background-image: url(assets/images/radio-on.svg);
 }
 
+.osob label{
+    padding-left: 36px;
+    cursor: pointer;
+}
+
 .osob p{
-    display: inline;
     font-weight: 400;
     line-height: 16px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.checkbox_osob{
+    position: absolute;
+    background-image: url(assets/images/checkbox-off.svg);
+    width: 23px;
+    height: 27px;
+    opacity: .4;
+    background-repeat: no-repeat;
+    margin-left: -36px;
+    margin-top: -4px;
+}
+
+.osob input[type="checkbox"]:hover + .checkbox_osob{
+    opacity: 1;
+}
+
+.osob input[type="checkbox"]:checked + .checkbox_osob{
+    background-image: url(assets/images/checkbox-on.svg);
 }
