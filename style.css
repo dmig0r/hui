@@ -950,3 +950,7 @@ login_icon_name{
     border: solid 3px #dbdbdb;
     background-color: #ffffff;
 }
+
+.p_mat{
+    padding-bottom: 40px;    
+}
