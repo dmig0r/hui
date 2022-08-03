@@ -85,6 +85,10 @@ h3{
     fill: #e5e5e5;
 }
 
+.card_product svg{
+/*    display: block*/
+}
+
 .button{
     color: #ffffff;
     border: none;
@@ -430,7 +434,7 @@ h3{
     transition: .2s linear;
 }
 
-.social_button path:active{
+.social_button:active path{
     fill: #e37376;
     transition: .2s linear;
 }
@@ -881,4 +885,68 @@ login_icon_name{
 .button_form:active{
     background-color: #d5d5d5;
     color: #959595;
+}
+
+.vissualy_description{
+    width: 360px;
+    height: 230px;
+    position: absolute;
+    background-color: #eeeeee;
+    margin-top: -271px;
+    display: none;
+}
+
+.micro_title{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.micro_title_p{
+    text-align: center;
+    line-height: 18px;
+    color: #666666;
+    padding-bottom: 12px;
+}
+
+.button_micro_title{
+    background-color: #fb565a;
+    border: none;
+    text-transform: uppercase;
+    color: white;
+    margin: 0 auto;
+    display: block;
+}
+
+.card_product:hover div{
+    display: block;
+}
+
+
+.card_product:hover path{
+    fill: #4D4D4D;
+}
+
+.button_footer_catalog{
+    margin-right: 11px;
+    padding: 16px 75px;
+    color: #000000;
+    border-radius: 3%;
+}
+
+.button_number_catalog{
+    padding: 16px 22px;
+}
+
+.button_footer_catalog:hover{
+    background-color: #dfdfdf;
+}
+
+.button_footer_catalog:active{
+    background-color: #d5d5d5;
+}
+
+.button_number_catalog_active{
+    padding: 13px 19px;
+    border: solid 3px #dbdbdb;
+    background-color: #ffffff;
 }
