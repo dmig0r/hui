@@ -631,6 +631,7 @@ login_icon_name{
     display: flex;
     justify-content: space-between;
     padding-top: 50px;
+    height: 100px;
 }
 
 .slider{
@@ -643,7 +644,7 @@ login_icon_name{
 }
 
 .slide{
-    margin-bottom: 0;
+    margin-bottom: -7px;
 }
 
 
