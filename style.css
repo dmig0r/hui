@@ -93,6 +93,7 @@ h3{
     color: #ffffff;
     border: none;
     padding: 16px 45px;
+    border-radius: 3px;
 }
 
 .visually_hidden{
@@ -119,6 +120,7 @@ h3{
 
 .main_header{
     background-color: #eeeeee;
+    min-height: 1200px;
 }
 
 .main_navigation{
